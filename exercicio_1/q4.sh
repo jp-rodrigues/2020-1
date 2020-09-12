@@ -1,4 +1,4 @@
-#/bin/bash
+!#/bin/bash
 
 
 echo -e "$(ls -l ${1})" >> /tmp/que_lista_linda.txt

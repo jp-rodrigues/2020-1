@@ -1,4 +1,4 @@
-#/bin/bash
+!#/bin/bash
 
 DATA=$(date +"%y-%m-%d")
 dir=$(pwd)

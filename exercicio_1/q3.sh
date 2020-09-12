@@ -1,4 +1,4 @@
-#/bin/bash
+!#/bin/bash
 
 
 echo -e "$(ls -l ${1})"
