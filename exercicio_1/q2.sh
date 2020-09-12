@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 
 read -p "digite o nome do primeiro diretorio a ser listado" dir1
