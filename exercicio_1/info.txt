@@ -1,7 +1,0 @@
-total 0
--rw-r--r-- 1 root root 0 mar 15 12:41 1
--rw-r--r-- 1 root root 0 mar 15 12:41 2
--rw-r--r-- 1 root root 0 mar 15 12:41 3
-total 0
--rw-r--r-- 1 root root 0 mar 15 12:41 1
-total 0
