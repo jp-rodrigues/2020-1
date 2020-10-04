@@ -1,4 +1,4 @@
-
+#!/bin/bash
 workdir=”/tmp/workdir”
 mkdir $workdir
 cd $workdir 2> /dev/null
