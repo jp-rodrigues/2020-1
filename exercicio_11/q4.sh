@@ -1,21 +1,9 @@
-#!/bin/bash 
-
-
-vetor=($(awk '{print $1" "$3}' < dow.txt))
-
-for i in ${vetor[@]};do
-	if (( ${vetor[i]} == ${vetor[ i + 2 ]} )); then
+#!/bin/bash
 
 
 
+awk '!/nelson/''{print $1" "$3}' < dow.txt
+num=$( awk 'NR==1''{print $3}' < dow.txt)
+num2=$( awk 'NR==3''{print $3}' < dow.txt)
 
-
-
-	fi
-
-
-
-
-
-
-done
+echo "nelson $(( $num + $num2))"
